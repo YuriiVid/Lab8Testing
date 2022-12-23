@@ -9,7 +9,7 @@ namespace Lab8.pages
 {
     public class JeansPage : BasePage
     {
-        private By productLinkBy = By.XPath("//*[@id=\"product-201878169\"]//a");
+        private By productLinkBy = By.XPath("//article[2]/a");
 
         public JeansPage(WebDriver driver) : base(driver) { }
 

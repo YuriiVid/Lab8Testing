@@ -15,7 +15,7 @@ namespace Lab8.pages
         private By searchBarBy = By.XPath("//*[@id=\"chrome-search\"]");
         private By searchButtonBy = By.XPath("//*[@id=\"search-icon\"]/ancestor::button");
         private By clothingButtonBy = By.XPath("//button[@data-id=\"96b432e3-d374-4293-8145-b00772447cde\"]");
-        private By jeansButtonBy = By.XPath("//*[@id=\"96b432e3-d374-4293-8145-b00772447cde\"]/div/div[2]/div/div[1]/ul/li[13]/a");
+        private By jeansButtonBy = By.XPath("//*[@id=\"96b432e3-d374-4293-8145-b00772447cde\"]/descendant::a[contains(text(), \"Jeans\")]");
         private By countrySelectorButtonBy = By.XPath("//div[@class= \"_25L--Pi\"]");
         private By countryIcon = By.XPath("//div[@class= \"_25L--Pi\"]/button/img");
 
