@@ -1,0 +1,1 @@
+Here is located project for the lab8 for testing site https://www.asos.com/women/. There are 3 auto-tests released: addItemToFavorite, isShoppingCountrySwitching and isSearchWorking.
